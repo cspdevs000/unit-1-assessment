@@ -1,0 +1,33 @@
+* {
+    text-align: center;
+}
+
+body {
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.counter {
+    padding: 100px;
+}
+
+.buttons {
+    display: inline-block;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+#printedNumber {
+    padding: 50px;
+}
+
+#numInput {
+    margin: 0 auto;
+    padding: 20px;
+}
