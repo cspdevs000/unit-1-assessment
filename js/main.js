@@ -3,6 +3,7 @@ let minusButton = document.getElementById("minus");
 let numInput = document.getElementById("numInput");
 let counter = document.getElementById("printedNumber");
 let sum = 0;
+console.log(counter.value);
 
 window.addEventListener(("DOMContentLoaded"), function(e) {
     counter.value = 0;
