@@ -38,6 +38,9 @@ function add() {
     if(sum > 0) {
         counter.style.color = "black";
     }
+    if(sum < 0) {
+        counter.style.color = "red";
+    }
 }
 
 function subtractNum(n1, n2) {
@@ -53,5 +56,8 @@ function subtract() {
 
     if(product < 0) {
         counter.style.color = "red";
+    }
+    if(product > 0) {
+        counter.style.color = "black";
     }
 }
